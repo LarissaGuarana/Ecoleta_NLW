@@ -1,11 +1,16 @@
+body {
+    background-color: whitesmoke;
+}
+
 body::after {
     content:"";
-    position: fixed;
-    background: whitesmoke;
-    top: 240px;
+    position: absolute;
+    background: #c4b1da;
+    top: 0;
     right: 0;
     left: 0;
     bottom: 0;
+    height: 16rem;
     z-index: -1;
 }
 
